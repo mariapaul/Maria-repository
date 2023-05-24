@@ -23,6 +23,6 @@
     </div>
     <div class="card-footer text-center">
         <button class="btn btn-primary" form="create-form" type="submit"><i class="fa fa-save"></i> Save Details</button>
-        <a class="btn btn-secondary" href="<?= base_url('pages/view_details/'.(isset($data['id']) ? $data['id'] : '')) ?>"><i class="fa fa-times"></i> Cancel</a>
+        <a class="btn btn-secondary" href="<?= base_url('pages/list/'.(isset($data['id']) ? $data['id'] : '')) ?>"><i class="fa fa-times"></i> Cancel</a>
     </div>
 </div>
